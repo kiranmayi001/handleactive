@@ -1,0 +1,15 @@
+.Rowflex{
+width:100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.VCard{
+    width: calc(33% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+}
+.Active{
+    border:3px solid blue;
+    border-radius: 6px;
+}

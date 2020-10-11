@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-bar{
+width: 100%;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: white;
+    z-index: 10;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px 8%;
+}
+
+.left-menu{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.logo{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-right: 16px;
+}
+
+.logo > a {
+text-decoration: none;
+background: -webkit-linear-gradient(45deg,#30CFD0 0%,#0000A0 100%);
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+cursor: pointer;
+}
+
+.left-menu > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 32px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.right-menu {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.bell-div {
+    position: relative;
+    margin-right: 32px;
+}
+.bell-div i{
+padding-left: 10px;
+}
+.right-menu > image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 2;
+
+}
